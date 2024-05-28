@@ -1,0 +1,133 @@
+* {
+  font-family: monospace;
+}
+body {
+  background-image: url("Assests/backGround.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.BigContainer {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  width: 500px;
+  height: 500px;
+  background-color: rgba(131, 131, 131, 0.356);
+  backdrop-filter: blur(10px);
+  border-radius: 82% 18% 43% 57% / 36% 67% 33% 64%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+}
+header {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 50px 0;
+}
+.input {
+  height: 45px;
+  width: 65%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  padding: 0 55px 0 45px;
+  background-color: rgba(255, 255, 255, 0.308);
+  margin-left: 10px;
+  transition: 0.25s;
+}
+.input:hover {
+  background-color: rgba(255, 255, 255, 0.425);
+  transition: 0.25s;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -32.5px;
+  left: 20px;
+}
+.Eye-icon {
+  background-color: transparent;
+  border: transparent;
+  background-image: url("Assests/preview-close-one.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -32.5px;
+  left: 240px;
+}
+.submit {
+  transition: 0.25s;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  height: 45px;
+  width: 295px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.76);
+  position: relative;
+  left: 10px;
+}
+.submit:hover {
+  background-color: rgba(255, 255, 255, 0.877);
+  transition: 0.25s;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+input::placeholder {
+  color: rgb(226, 226, 226);
+}
+.left {
+  position: relative;
+  left: -35px;
+  color: white;
+}
+.left p {
+  position: relative;
+  top: -35px;
+  left: 25px;
+}
+.right a {
+  position: relative;
+  right: -55px;
+  color: white;
+  text-decoration: none;
+}
+input[type="checkbox"] {
+  appearance: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 75px 100px;
+  cursor: pointer;
+}
+input[type="checkbox"]:hover {
+  background-color: rgba(255, 255, 255, 0.322);
+}
+input[type="checkbox"]:checked {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
